@@ -100,6 +100,9 @@ builder.Services.AddControllers();
 builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<TokenService>();
 builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<DefectService>();
+builder.Services.AddScoped<ProjectService>();
+builder.Services.AddScoped<ReportService>();
 
 // Swagger (полезно для тестирования)
 builder.Services.AddEndpointsApiExplorer();
